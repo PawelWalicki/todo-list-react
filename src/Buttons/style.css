@@ -1,0 +1,27 @@
+.buttons__button {
+    display: flex;
+    padding: 10px 20px;
+};
+
+@media (max-width: 767px) {
+    .buttons__button {
+        display: grid;
+        grid-gap: 10px;
+        align-items: center;
+        justify-content: space-around;
+    };
+};
+
+.buttons__button {
+    background-color: transparent;
+    color: teal;
+    border: none;
+};
+
+.buttons__button:hover {
+    color: hsl(180, 100%, 35%);
+};
+
+.buttons__button:disabled { 
+    color: #ccc;
+} ;
