@@ -23,7 +23,7 @@ function App() {
 
       <section className="section">
         <h3 className="section__header">Lista zadań</h3>
-        <Buttons task={tasks} hideDoneTasks={hideDoneTasks} />
+        <Buttons tasks={tasks} hideDoneTasks={hideDoneTasks} />
         <Tasks tasks={tasks} hideDoneTasks={hideDoneTasks} />
       </section>
     </body>
