@@ -7,7 +7,7 @@ const Buttons = ({ tasks, hideDoneTasks }) => {
     return (
         <div className="buttons">
             <button className="buttons__button">
-                {hideDoneTasks ? "Pokaż" : "Ukryj"} ukończone
+                {hideDoneTasks ? "Pokaż" : "Ukryj"} Ukończone
             </button>
             <button
                 className="buttons__button"
@@ -15,7 +15,7 @@ const Buttons = ({ tasks, hideDoneTasks }) => {
             >
                 Ukończ wszystkie
             </button>
-        </div>
+        </div >
     )
 };
 
