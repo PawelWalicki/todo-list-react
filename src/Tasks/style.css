@@ -33,7 +33,7 @@
     
 }
 
-.tasks__button--toggleDonee:hover {
+.tasks__button--toggleDone:hover {
     background-color: rgb(1, 139, 1);
     cursor: pointer;
 }

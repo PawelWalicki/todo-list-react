@@ -1,27 +1,38 @@
-.buttons__button {
+.buttons {
     display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+.buttons__button {
+    font-size: 15px;
+    color: teal;
+    border: none;
+    background-color: transparent;
+    transition: color 0.5s;
+    margin: 0 0 0 20px;
+    cursor: pointer;
     padding: 10px 20px;
-};
+}
+
 
 @media (max-width: 767px) {
     .buttons__button {
-        display: grid;
-        grid-gap: 10px;
-        align-items: center;
-        justify-content: space-around;
-    };
-};
+       display: grid;
+       grid-template-columns: 1fr;
+       
+    }
+}
 
-.buttons__button {
-    background-color: transparent;
-    color: teal;
-    border: none;
-};
+.buttons__button:active {
+    color: hsl(180, 100%, 35%);
+}
 
 .buttons__button:hover {
-    color: hsl(180, 100%, 35%);
-};
+    color: hsl(191, 54%, 45%);
+}
 
 .buttons__button:disabled { 
     color: #ccc;
-} ;
+    cursor: not-allowed;
+} 
