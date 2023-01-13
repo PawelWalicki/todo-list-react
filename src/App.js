@@ -2,6 +2,7 @@ import Form from "./Form";
 import Tasks from "./Tasks";
 import Buttons from "./Buttons";
 
+
 const tasks = [
   { id: 1, content: "przejść na reacta", done: false },
   { id: 2, content: "zdjeść obiad", done: true },
@@ -22,8 +23,10 @@ function App() {
       </section>
 
       <section className="section">
-        <h3 className="section__header">Lista zadań</h3>
-        <Buttons tasks={tasks} hideDoneTasks={hideDoneTasks} />
+        <div className="section__header">
+          <h3 className="section__title">Lista zadań</h3>
+          <Buttons tasks={tasks} hideDoneTasks={hideDoneTasks} />
+        </div>
         <Tasks tasks={tasks} hideDoneTasks={hideDoneTasks} />
       </section>
     </body>
