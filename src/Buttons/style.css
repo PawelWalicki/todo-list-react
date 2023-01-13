@@ -1,7 +1,7 @@
 .buttons {
     display: flex;
     justify-content: flex-end;
-    padding: 20px;
+
 }
 
 .buttons__button {
@@ -17,7 +17,7 @@
 
 
 @media (max-width: 767px) {
-    .buttons__button {
+    .buttons {
        display: grid;
        grid-template-columns: 1fr;
        
