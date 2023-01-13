@@ -1,10 +1,8 @@
 .form {
     background-color: rgb(255, 255, 255);
     padding: 20px;
-    margin: 1px 20px 1px 20px;
     display: grid;
-    grid-template-columns: 1fr auto;
-    grid-gap: 20px;
+    grid-template-columns: 1fr auto;    
 }
 
 @media (max-width: 768px) {
@@ -45,6 +43,8 @@
 .form__button:hover {
     background-color: rgb(1, 141, 141);
     cursor: pointer;
+    transition: 0.5s;
+    transform: scale(1.05);
 }
 
 .form__button:active {
