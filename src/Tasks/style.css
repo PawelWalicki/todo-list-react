@@ -58,3 +58,7 @@
 .tasks__button--remove:active {
     border: 2px solid rgb(0, 0, 0);
 }
+
+.tasks_item--hidden {
+    display: none;
+}
