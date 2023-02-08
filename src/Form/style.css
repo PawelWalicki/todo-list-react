@@ -33,7 +33,7 @@
     border: none;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 769px) {
     .form__button {
         margin: 0;
         margin-top: 10px;
